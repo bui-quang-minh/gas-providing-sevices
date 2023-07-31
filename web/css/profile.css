@@ -1,0 +1,17 @@
+input[type="text"],input[type="email"],input[type="password"],input[type="tel"]{
+  border: none;
+  border-bottom: 1px lightgray solid;
+  width: 40%;
+}
+input[type="text"]:focus,input[type="email"]:focus,input[type="password"]:focus,input[type="tel"]:focus{
+  border: none;
+  border-bottom: 2px lightgray solid;
+  width: 40%;
+  outline: none;
+}
+td{
+    height: 40px;
+}
+.notice{
+    color:red;
+}

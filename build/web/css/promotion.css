@@ -1,0 +1,21 @@
+.display-item{
+    background: #FFFFFF;
+    border-radius:10px;
+    padding-top:1%;
+    margin-bottom: 2%;
+    display: flex;
+    border:1px solid #F69E69;
+    border-top:5px solid #F69E69;
+    padding: 1% 0;
+    margin: 2% 5%;
+}
+.text-display{
+    padding-top: 1%;
+}
+.tag-display{
+    border: 2px solid red;
+    color: red; padding: 0% 1%;
+}
+.time-display{
+    color:red;
+}

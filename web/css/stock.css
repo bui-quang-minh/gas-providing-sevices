@@ -1,0 +1,14 @@
+.stick{
+    z-index: 20;
+    position: fixed;
+    top: 92%;
+    left:82%;
+}
+.pagination{
+    margin-top: 2%;
+    margin-bottom: 4%;
+}
+.customBtn{
+    background-color: #f26f21;
+    border-color: #F26F21;
+}

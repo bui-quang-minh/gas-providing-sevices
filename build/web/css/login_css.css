@@ -1,0 +1,66 @@
+body{
+  background-image: linear-gradient(to right, #ffafbd , #ffc3a0);
+  
+}
+button{
+  border-radius: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 2px;
+  padding-bottom: 4px;
+  width: 100%;
+  background-image: linear-gradient(to right, #ffafbd , #ffc3a0);
+}
+
+.login-window{
+  margin-top: 100px;
+  border: 1px solid;
+  border-radius: 25px;
+  padding: 20px 20px;
+  background-color: white;
+}
+input[type="text"],input[type="email"],input[type="password"],input[type="tel"]{
+  border: none;
+  border-bottom: 1px lightgray solid;
+  width: 100%;
+  margin-bottom: 10px;
+}
+input[type="text"]:focus,input[type="email"]:focus,input[type="password"]:focus,input[type="tel"]:focus{
+  border: none;
+  border-bottom: 2px lightgray solid;
+  width: 100%;
+  margin-bottom: 10px;
+  outline: none;
+}
+.fpsw{
+  text-align: center;
+  font-size: small;
+}
+a:before{
+  color: black;
+}
+a:active{
+   color: black; 
+}
+a{
+    margin-bottom: 10px;
+}
+input[type="checkbox"]{
+   font: 16pt FontAwesome;
+   content: '\00f096';
+   display: inline-block;
+   width: 16pt;
+   padding: 2px 0 0 3px;
+   margin-right: 0.5em;
+}
+.heading{
+  font-size: small;
+  font-weight: 350;
+}
+.errr{
+    color: red;
+    font-size: small;
+    font-weight: 350;
+    margin-bottom: 10px;
+}
+

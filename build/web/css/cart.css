@@ -1,0 +1,102 @@
+/*
+    Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+    Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : May 16, 2023, 9:57:33 PM
+    Author     : An
+*/
+
+cart_content {
+
+}
+.header_cart{
+    background: #F69e69;
+    border-radius:10px;
+    width: 100%;
+    margin-top:5%;
+    padding-left: 5%;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    text-align: center;
+    display: flex;
+    margin-bottom: 2%
+}
+.box-content_cart{
+    border-top: 1px solid;
+
+    padding: 2%;
+    background: white;
+    border-radius:10px;
+    width: 100%;
+    margin-top:1%;
+    display: flex;
+    border-top-width: 5px;
+    border-top-color: #F69E69;
+    margin-bottom: 2%;
+}
+.totalall {
+    position: -webkit-sticky;
+    position: sticky;
+    background-color: white;
+    top: 0;
+    bottom: 0;
+    margin: 0%;
+    width: 104%;
+    padding: 2%;
+    border-top: 5px solid;
+    border-top-color: #F69E69;
+    margin-left:-2%;
+
+
+
+}
+
+.cart_img{
+
+}
+.cart_Name{
+    text-align: center;
+
+}
+.eachproduct{
+    background-color: #dcdcdc;
+    display: flex;
+    padding-left: 1%;
+    margin: 1%;
+    border-radius:10px;
+}
+.cart_price{
+    text-align: left;
+}
+.cart_quantity{
+    text-align: left;
+}
+.cart_TotalPrice{
+    text-align: left;
+
+}
+input[type="number"] {
+    border: none;
+    width: fit-content;
+}
+/*really sleepy when doing this*/
+.animate{
+
+    animation: fly_to_cart 1s ease-in;
+    z-index: 100;
+    border-radius: inherit;
+}
+/* left then top */
+@keyframes fly_to_cart {
+    0% {
+        transform: translate(0, 0) scale(1);
+    }
+
+    100%{
+        transform: translate(var(--left), var(--top))scale(0);
+    }
+    
+/*1268.76
+113.60*/
+}

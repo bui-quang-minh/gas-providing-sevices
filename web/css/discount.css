@@ -1,0 +1,52 @@
+.voucher-text{
+    border-left: 1px solid lightgrey;
+    border-right: 1px solid lightgrey;
+    padding: 1% 3%
+}
+.voucher-text-h1{
+    font-weight: bold;
+}
+.voucher-text-h2{
+    color: gray;
+    font-size: small
+}
+.voucher-text-date{
+    color: red;
+    border: red solid 1px;
+    font-size: small;
+    width: fit-content;
+    margin: 1% 0%;
+    padding: 1px
+}
+.voucher-icon{
+    padding-right: 2px
+}
+.voucher-button-delete{
+    color: red;display: inline-block;
+    background-color: #FFFFFF;
+    border: red 2px solid;
+    border-radius: 10px;
+    width: 70%;
+    margin: 2%
+}
+.voucher-button-adjust{
+    color: #007bff ;display: inline-block;
+    background-color: #FFFFFF;
+    border: #007bff 2px solid;
+    border-radius: 10px;
+    width: 70%;
+    margin: 2%
+}
+.voucher-button-expire{
+    color: grey;display: inline-block;
+    background-color: #FFFFFF;
+    border: grey 2px solid;
+    border-radius: 10px;
+    width: 70%;
+    margin: 2%
+}
+.voucher-button{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
